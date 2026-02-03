@@ -2,7 +2,51 @@
 
 
 
-
+   
+<!-- navbar start -->
+<div class="navbar bg-base-100 lg:mb-20 md:mb-10 mb-5 lg:px-10 md:px-6 px-3">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+       <li><a class="text-[#17181C] lg:text-base text-sm font-medium">Home</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">About</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Services</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Contact</a></li>
+      </ul>
+    </div>
+   <img src="./img/logoAsset-1-1536x451.png" alt="" class="w-32">
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a class="text-[#17181C] lg:text-base text-sm font-medium">Home</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">About</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Services</a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+      <li><a class="text-[#9E9E9E] hover:text-[#F6834E] duration-300 lg:text-base text-sm font-medium">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
+  </div>
+</div>
+<!-- navbar end -->
 
 
 
